@@ -10,6 +10,9 @@ def product_list(lst):
         product *= i
     return product
 
+def reverse_list(lst):
+    return list(reversed(lst))
+
 def main():
     response = ""
     numbers = []
