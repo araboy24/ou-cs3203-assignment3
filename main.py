@@ -1,10 +1,10 @@
-def sum_list(lst):
+def sum_list(lst):  # this finds the sum
     sum = 0
     for i in lst:
         sum += i
     return sum
 
-def product_list(lst):
+def product_list(lst):  # this finds the product
     product = 1
     for i in lst:
         product *= i
@@ -13,7 +13,7 @@ def product_list(lst):
 def reverse_list(lst):
     return list(reversed(lst))
 
-def main():
+def main():  # This calls above functions
     response = ""
     numbers = []
     while response.lower() != 'x':
