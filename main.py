@@ -23,6 +23,7 @@ def main():
         numbers.append(int(response))
     print(f'Sum of Numbers: {sum_list(numbers)}')
     print(f'Product of Numbers: {product_list(numbers)}')
+    print(f'Reverse of Numbers: {reverse_list(numbers)}')
 
 if __name__ == "__main__":
     main()
